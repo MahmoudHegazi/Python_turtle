@@ -19,6 +19,8 @@ def drawh():
 	app = str(input('do you wanna draw h  Y/N'))
 	if app == 'y' or app == 'Y':
 		drawh()
+	else:
+		return
 
 drawh()
 
